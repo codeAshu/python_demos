@@ -1,3 +1,70 @@
-.idea/
+Quantum-Venom:biz_spext rusty$ ls
+Constants.py		cleanup.py		followers.txt		publish.py		sseclient
+Constants.pyc		cleanup.pyc		following.txt		publish.pyc		stripe_process.py
+Dockerfile		config			force			pyrebase		stripe_process.pyc
+__init__.py		cron.yaml		gunicorn.conf.py	requirements.txt	templates
+aligner			data			images			search.py		transcode
+already-followed.txt	db			main.py			search.pyc		video
+app.yaml		digger.py		manager.py		sp_admin.py		worker.py
+audio			digger.pyc		manager.pyc		sp_admin.pyc		zoom.py
+bconf.py		dump.rdb		moviepy			sp_api.py
+bconf.pyc		engine.py		music_gen.py		sp_api.pyc
+cl_log.py		engine.pyc		music_gen.pyc		sp_error.py
+cl_log.pyc		export			notebooks		sp_error.pyc
+Quantum-Venom:biz_spext rusty$ nano .gitignore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 2.0.6                                  File: .gitignore                                                                           
+
+*.pyc
+*.log
+ngrok
+# don't include third-party dependencies.
+!lib/README.md
 .DS_Store
-.ipynb_checkpoints/
+google/
+lib/
+temp/
+transcribe/
+.idea/
+ideas/
+.ipynb_checkpoints
+*.ipynb
+log/
+model_data/
+data/
+*/conf.py
+config
+nohup.out
+dump.rdb
+*.out
+*.mp3
+*.mp4
+*.ogg
+*.flac
